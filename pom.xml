@@ -15,9 +15,9 @@
         </developer>
     </developers>
     <scm>
-        <connection>scm:git:git@github.com:alexist/fast-archetype.git</connection>
-        <url>scm:git:git@github.com:alexist/fast-archetype.git</url>
-        <developerConnection>scm:git:git@github.com:alexist/fast-archetype.git</developerConnection>
+        <connection>scm:git:git@github.com:Smile-SA/fast-archetype.git</connection>
+        <url>scm:git:git@github.com:Smile-SA/fast-archetype.git</url>
+        <developerConnection>scm:git:git@github.com:Smile-SA/fast-archetype.git</developerConnection>
     </scm>
     <build>
         <resources>
