@@ -76,18 +76,11 @@
             </plugin>
         </plugins>
     </build>
-    <repositories>
-        <repository>
-            <id>esigate-repository</id>
-            <name>Esigate repository</name>
-            <url>http://www.esigate.org/maven/repository</url>
-        </repository>
-    </repositories>
     <pluginRepositories>        
         <pluginRepository>
-            <id>smilesa-repository</id>
-            <name>Smile SA repository</name>
-            <url>https://github.com/Smile-SA/maven-repository/raw/master/releases</url>
+            <id>smile-github-repository</id>
+            <name>Smile Github repository</name>
+            <url>http://smile-sa.github.com/maven-repository/releases</url>
         </pluginRepository>
     </pluginRepositories>
 </project>
