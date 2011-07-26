@@ -66,16 +66,25 @@
                     <arguments>-DaltDeploymentRepository=/${altDeploymentRepository}</arguments>
                 </configuration>
             </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-site-plugin</artifactId>
+                <version>3.0-beta-3</version>
+            </plugin>
         </plugins>
     </build>
     <distributionManagement>
         <repository>
-            <id>releases</id>
+            <id>maven-repository-releases</id>
             <url>http://smile-sa.github.com/maven-repository/releases</url>
         </repository>
         <snapshotRepository>
-            <id>snapshots</id>
+            <id>maven-repository-snapshots</id>
             <url>http://smile-sa.github.com/maven-repository/snapshots</url>
         </snapshotRepository>
+        <site>
+            <id>maven-repository-doc</id>
+            <url>org.fast.archetype.fast-archetype</url>
+        </site>
     </distributionManagement>
 </project>
