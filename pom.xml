@@ -95,9 +95,5 @@
             <id>maven-repository-snapshots</id>
             <url>http://smile-sa.github.com/maven-repository/snapshots</url>
         </snapshotRepository>
-        <site>
-            <id>maven-repository-doc</id>
-            <url>org.fast.archetype.fast-archetype</url>
-        </site>
     </distributionManagement>
 </project>
