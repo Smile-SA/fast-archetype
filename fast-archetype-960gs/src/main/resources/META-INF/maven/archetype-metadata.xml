@@ -1,23 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <archetype-descriptor name="maven-fast-archetype">
-    <fileSets>
-        <fileSet filtered="false" encoding="UTF-8">
-            <directory>src/main/resources</directory>
-            <includes>
-                <include>**/*</include>
-            </includes>
-        </fileSet>
-        <fileSet filtered="false" encoding="UTF-8">
-            <directory>src/main/filters</directory>
-            <includes>
-                <include>**/*</include>
-            </includes>
-        </fileSet>
-        <fileSet filtered="false" encoding="UTF-8">
-            <directory>src/main/assembly</directory>
-            <includes>
-                <include>**/*</include>
-            </includes>
-        </fileSet>
-    </fileSets>
+	<fileSets>
+		<fileSet filtered="false" encoding="UTF-8">
+			<directory>src/main/resources</directory>
+			<includes>
+				<include>**/*</include>
+			</includes>
+		</fileSet>
+		<fileSet filtered="false" encoding="UTF-8">
+			<directory>src/main/filters</directory>
+			<includes>
+				<include>**/*</include>
+			</includes>
+		</fileSet>
+		<fileSet filtered="false" encoding="UTF-8">
+			<directory>src/main/assembly</directory>
+			<includes>
+				<include>**/*</include>
+			</includes>
+		</fileSet>
+		<fileSet encoding="UTF-8">
+			<directory></directory>
+			<includes>
+				<include>README.txt</include>
+			</includes>
+		</fileSet>
+	</fileSets>
 </archetype-descriptor>
