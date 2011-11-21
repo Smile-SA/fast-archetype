@@ -19,5 +19,11 @@
                 <include>**/*</include>
             </includes>
         </fileSet>
+ 		<fileSet encoding="UTF-8">
+			<directory></directory>
+			<includes>
+				<include>README.txt</include>
+			</includes>
+		</fileSet>
     </fileSets>
 </archetype-descriptor>
