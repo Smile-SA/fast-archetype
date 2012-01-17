@@ -1,0 +1,20 @@
+/* ****************************************************************************
+ * SCREEN NAVIGATION
+ */
+#navigation li {
+	margin-left: 0;
+	list-style: none;
+}
+
+#navigation a {
+	display: block;
+	background: #f1f1f1;
+	padding: 10px;
+	text-decoration: none;
+	color: #000000;
+}
+
+#navigation a:hover {
+	background: #666666;
+	color: #ffffff;
+}

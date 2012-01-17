@@ -1,0 +1,22 @@
+/* ****************************************************************************
+ * SCREEN
+ */
+@import url(960gs/reset.css);
+
+@import url(960gs/text.css);
+
+@import url(960gs/960_12_col.css);
+
+@import url(960gs/960_16_col.css);
+
+@import url(960gs/960_24_col.css);
+
+@import url(screen-global.css);
+
+@import url(screen-header.css);
+
+@import url(screen-footer.css);
+
+@import url(screen-navigation.css);
+
+@import url(screen-block1.css);

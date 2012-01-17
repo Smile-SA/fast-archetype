@@ -1,0 +1,17 @@
+/* ****************************************************************************
+ * SCREEN BLOCK1
+ */
+.block1 {
+	background: #f1f1f1;
+	padding: 20px;
+	margin: 5px;
+	border: 2px solid #000000;
+}
+
+.block1 h2 {
+	background: #000000;
+	color: #FFFFFF;
+	font-weight: bold;
+	margin: -20px -20px 0;
+	padding: 10px 20px;
+}
