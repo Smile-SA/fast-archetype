@@ -43,8 +43,8 @@
             </plugin>
             <plugin>
                 <groupId>org.fast.maven.plugin</groupId>
-                <artifactId>maven-fast-plugin</artifactId>
-                <version>2.1</version>
+                <artifactId>fast-maven-plugin</artifactId>
+                <version>2.2</version>
                 <executions>
                     <execution>
                         <phase>process-resources</phase>
