@@ -9,7 +9,7 @@
     <inceptionYear>2011</inceptionYear>
     <properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<fast-archetype-parent.version>2.5</fast-archetype-parent.version>
+		<fast-archetype-parent.version>2.6-SNAPSHOT</fast-archetype-parent.version>
     </properties>
     <modules>
     	<module>fast-archetype-parent</module>
