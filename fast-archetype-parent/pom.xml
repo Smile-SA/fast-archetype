@@ -4,7 +4,6 @@
 	<artifactId>fast-archetype-parent</artifactId>
 	<version>2.6-SNAPSHOT</version>
 	<packaging>pom</packaging>
-	<name>FAST archetype parent</name>
 	<properties>
 		<maven.build.timestamp.format>yyyyMMdd_HHmm__</maven.build.timestamp.format>
 	</properties>
