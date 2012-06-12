@@ -1,9 +1,8 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.fast.archetype</groupId>
 	<artifactId>fast-archetype</artifactId>
-	<version>2.6-SNAPSHOT</version>
+	<version>2.6</version>
 	<packaging>pom</packaging>
 	<name>fast-archetype</name>
 	<description>Fast ApplicationS Templating archetype that generate a fast templating project</description>
@@ -37,7 +36,8 @@
 		<connection>scm:git:git@github.com:Smile-SA/fast-archetype.git</connection>
 		<url>scm:git:git@github.com:Smile-SA/fast-archetype.git</url>
 		<developerConnection>scm:git:git@github.com:Smile-SA/fast-archetype.git</developerConnection>
-	</scm>
+	  <tag>fast-archetype-2.6</tag>
+  </scm>
 	<build>
 		<resources>
 			<resource>
