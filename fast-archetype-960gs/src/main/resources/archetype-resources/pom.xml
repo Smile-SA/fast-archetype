@@ -12,6 +12,9 @@
     <packaging>jar</packaging>
     <name>\${project.artifactId}</name>
 	<build>
+		<filters>
+			<filter>src/main/filters/filter.properties</filter>
+		</filters>
 		<plugins>
 			<plugin>
 				<groupId>org.fast.maven.plugin</groupId>
