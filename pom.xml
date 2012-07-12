@@ -19,6 +19,7 @@
 		<module>fast-archetype-simple</module>
 		<module>fast-archetype-yui3</module>
 		<module>fast-archetype-960gs</module>
+		<module>fast-archetype-liferay-6.1.0-ce</module>
 	</modules>
 	<developers>
 		<developer>
