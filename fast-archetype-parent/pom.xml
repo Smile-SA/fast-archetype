@@ -1,4 +1,5 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.fast.archetype</groupId>
 	<artifactId>fast-archetype-parent</artifactId>
@@ -43,6 +44,16 @@
 					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-site-plugin</artifactId>
 					<version>3.1</version>
+					<configuration>
+						<inputDirectory>${project.build.directory}/generated-html</inputDirectory>
+					</configuration>
+					<dependencies>
+						<dependency>
+							<groupId>org.apache.maven.wagon</groupId>
+							<artifactId>wagon-ssh</artifactId>
+							<version>1.0</version>
+						</dependency>
+					</dependencies>
 				</plugin>
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
