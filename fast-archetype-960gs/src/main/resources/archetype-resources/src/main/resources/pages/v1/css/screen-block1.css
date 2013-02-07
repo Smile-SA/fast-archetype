@@ -4,11 +4,11 @@
 .block1 {
 	background: #f1f1f1;
 	padding: 20px;
+	margin: 5px;
 	border: 2px solid #000000;
-	margin-bottom: 10px;
 }
 
-.block1 h2 {
+.block1 h1 {
 	background: #000000;
 	color: #FFFFFF;
 	font-weight: bold;
