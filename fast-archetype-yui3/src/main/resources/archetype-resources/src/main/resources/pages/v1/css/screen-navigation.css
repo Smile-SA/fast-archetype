@@ -1,7 +1,7 @@
 /* ****************************************************************************
  * SCREEN NAVIGATION
  */
-#navigation a {
+nav a {
 	display: block;
 	background: #f1f1f1;
 	padding: 10px;
@@ -9,7 +9,7 @@
 	color: #000000;
 }
 
-#navigation a:hover {
+nav a:hover {
 	background: #666666;
 	color: #ffffff;
 }
