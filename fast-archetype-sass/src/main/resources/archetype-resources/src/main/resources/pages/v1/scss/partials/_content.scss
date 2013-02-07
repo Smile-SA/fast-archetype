@@ -1,0 +1,17 @@
+/* ****************************************************************************
+ * CONTENT : BLOCK1
+ */
+.block1 {
+	background: $block_body_bg_color;
+	padding: 10px 20px 10px 20px;
+	margin: 5px;
+	border: 2px solid $block_header_bg_color;
+
+	h1 {
+		background: $block_header_bg_color;
+		color: $block_header_font_color;
+		font-weight: bold;
+		margin: -10px -20px 10px -20px ;
+		padding: 10px 20px;
+	}
+}

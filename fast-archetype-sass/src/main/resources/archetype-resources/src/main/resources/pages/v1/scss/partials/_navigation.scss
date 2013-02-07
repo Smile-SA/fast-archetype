@@ -1,0 +1,17 @@
+/* ****************************************************************************
+ * NAVIGATION
+ */
+nav {
+	a {
+		display: block;
+		background: $block_body_bg_color;
+		padding: 10px;
+		text-decoration: none;
+		color: $block_content_font_color;
+
+		&:hover {
+			background: $block_header_bg_color;
+			color: $block_header_font_color;
+		}
+	}
+}
