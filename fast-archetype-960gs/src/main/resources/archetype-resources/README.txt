@@ -1,4 +1,4 @@
-This project is an XHTML 1.0 transitional project.
+This project is an HTML5 project.
 
 It uses 960gs as CSS framework.
 You can find more informations here : http://960.gs/

@@ -9,7 +9,7 @@ You can find more informations here : http://yuilibrary.com
 - SASS : http://sass-lang.com/
 
 It uses SASS to generate CSS files.
-SCSS files are located into src/main/resources/v1/scss (it can be modified into pom.xml).
+SCSS files are located into src/main/resources/pages/v1/scss (it can be modified into pom.xml).
 CSS are generated into target/generated-html/v1/css-generated (it can be modified into pom.xml).
 Compass is not available as it is not handle by the sass-maven-plugin.
 
