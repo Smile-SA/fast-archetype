@@ -3,13 +3,13 @@
 	<parent>
 		<groupId>org.fast.archetype</groupId>
 		<artifactId>fast-archetype-parent</artifactId>
-		<version>2.8</version>
+		<version>${fast-archetype-parent.version}</version>
 	</parent>
-	<groupId>fr.smile</groupId>
-	<artifactId>twitter-bootstrap</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
-	<packaging>jar</packaging>
-	<name>${project.artifactId}</name>
+    <groupId>\${groupId}</groupId>
+    <artifactId>\${artifactId}</artifactId>
+    <version>\${version}</version>
+    <packaging>jar</packaging>
+    <name>\${project.artifactId}</name>
 	<build>
 		<plugins>
 			<plugin>
@@ -24,8 +24,8 @@
 				<groupId>org.lesscss</groupId>
 				<artifactId>lesscss-maven-plugin</artifactId>
 				<configuration>
-					<sourceDirectory>${project.basedir}/src/main/resources/pages/v1/less</sourceDirectory>
-					<outputDirectory>${project.build.directory}/generated-html/v1/css-generated</outputDirectory>
+					<sourceDirectory>\${project.basedir}/src/main/resources/pages/v1/less</sourceDirectory>
+					<outputDirectory>\${project.build.directory}/generated-html/v1/css-generated</outputDirectory>
 					<includes>
 						<include>bootstrap.less</include>
 						<include>responsive.less</include>
