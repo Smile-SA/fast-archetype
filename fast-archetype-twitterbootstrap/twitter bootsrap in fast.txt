@@ -1,9 +1,0 @@
-https://wiki.smile.fr/view/TechnosWeb/CssPreProcessor
-http://twitter.github.com/bootstrap/examples/carousel.html
-https://github.com/twitter/bootstrap/tree/master/less
-http://pikock.github.com/bootstrap-magic/app/index.html
-
-
-http://icp.ge.ch/sem/cms-spip/spip.php?article1682
-http://www.siteduzero.com/informatique/tutoriels/bootstrap-de-twitter-un-kit-css-et-plus/une-grille
-http://www.w3resource.com/twitter-bootstrap/tutorial.php
