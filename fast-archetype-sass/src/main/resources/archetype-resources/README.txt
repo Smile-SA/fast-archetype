@@ -11,7 +11,9 @@ You can find more informations here : http://yuilibrary.com
 It uses SASS to generate CSS files.
 SCSS files are located into src/main/resources/pages/v1/scss (it can be modified into pom.xml).
 CSS are generated into target/generated-html/v1/css-generated (it can be modified into pom.xml).
-Compass is not available as it is not handle by the sass-maven-plugin.
+
+Compass is not available as it is not handle by the sass-maven-plugin :
+	https://github.com/Jasig/sass-maven-plugin/issues/10
 
 One more thing :
 CSS and Javascript may not be merged and minified while developping.
