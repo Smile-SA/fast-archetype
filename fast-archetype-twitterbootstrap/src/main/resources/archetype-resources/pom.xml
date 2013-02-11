@@ -11,6 +11,9 @@
     <packaging>jar</packaging>
     <name>\${project.artifactId}</name>
 	<build>
+		<filters>
+			<filter>src/main/filters/filter.properties</filter>
+		</filters>
 		<plugins>
 			<plugin>
 				<groupId>org.fast.maven.plugin</groupId>
@@ -24,11 +27,12 @@
 				<groupId>org.lesscss</groupId>
 				<artifactId>lesscss-maven-plugin</artifactId>
 				<configuration>
-					<sourceDirectory>\${project.basedir}/src/main/resources/pages/v1/less</sourceDirectory>
+					<sourceDirectory>\${project.build.directory}/generated-html/v1/less</sourceDirectory>
 					<outputDirectory>\${project.build.directory}/generated-html/v1/css-generated</outputDirectory>
 					<includes>
 						<include>bootstrap.less</include>
 						<include>responsive.less</include>
+						<include>screen.less</include>
 					</includes>
 				</configuration>
 			</plugin>
