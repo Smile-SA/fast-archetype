@@ -19,6 +19,8 @@
 				<includes>
 					<include>**/*.html</include>
 					<include>**/*.xml</include>
+					<include>**/*.less</include>
+					<include>**/*.scss</include>
 				</includes>
 			</resource>
 			<resource>
@@ -27,6 +29,8 @@
 				<excludes>
 					<exclude>**/*.html</exclude>
 					<exclude>**/*.xml</exclude>
+					<exclude>**/*.less</exclude>
+					<exclude>**/*.scss</exclude>
 				</excludes>
 			</resource>
 		</resources>
@@ -125,6 +129,7 @@
 							<goals>
 								<goal>compile</goal>
 							</goals>
+							<phase>compile</phase>
 						</execution>
 					</executions>
 				</plugin>
@@ -137,7 +142,7 @@
 							<goals>
 								<goal>update-stylesheets</goal>
 							</goals>
-							<phase>process-resources</phase>
+							<phase>compile</phase>
 						</execution>
 					</executions>
 				</plugin>
