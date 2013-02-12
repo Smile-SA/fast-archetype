@@ -1,9 +1,9 @@
 This project is an HTML5 project.
 
-It uses Twitter Bootsrap as CSS framework.
+It uses Twitter Bootstrap as CSS framework.
 You can find more informations here : http://twitter.github.com/bootstrap
 
-Twitter boostratp files are locate into src/main/resources/pages/twitter-bootstrap.
+Twitter bootstrap files are located into src/main/resources/pages/twitter-bootstrap.
 If you want to update Bootstrap, replace this directory.
 You may do so without fear as no development should have been made into this directory.
 
@@ -12,7 +12,7 @@ LESS files are located into src/main/resources/pages/v1/less (it can be modified
 CSS are generated into target/generated-html/v1/css-generated (it can be modified into pom.xml).
 
 If you prefer to use less.js to avoid CSS generation :
-- to your skeleton.html, add :
+- into your skeleton.html, add :
 	<link rel="stylesheet/less" href="v1/less/bootstrap.less" />
 	<script src="lesscss/less-1.3.3.min.js"></script>
 
