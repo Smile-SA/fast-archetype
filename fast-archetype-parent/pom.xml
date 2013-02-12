@@ -169,6 +169,11 @@
 					<artifactId>jetty-maven-plugin</artifactId>
 					<version>8.1.9.v20130131</version>
 					<configuration>
+						<connectors>
+							<connector implementation="org.eclipse.jetty.server.bio.SocketConnector">
+								<port>8080</port>
+							</connector>
+						</connectors>
 						<scanIntervalSeconds>10</scanIntervalSeconds>
 						<webAppConfig>
 							<contextPath>/</contextPath>
