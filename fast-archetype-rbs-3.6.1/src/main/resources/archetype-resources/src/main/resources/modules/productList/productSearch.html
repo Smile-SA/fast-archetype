@@ -1,0 +1,32 @@
+<div class="normal productlist-options">
+	<form
+		action="http://demo.rbschange.fr/fr/action/ecomextended/UpdateBlockConfig"
+		class="cmxform">
+		<fieldset>
+			<ol>
+				<li><label for="f_ecomextended_terms">Votre recherche :</label>
+					<input type="text" size="35" value="" title=""
+					id="f_ecomextended_productterms" name="terms"
+					class="ui-autocomplete-input" autocomplete="off" role="textbox"
+					aria-autocomplete="list" aria-haspopup="true"> <select
+					nopreamble="true" name="op">
+						<option selected="selected" value="AND">Tous les mots</option>
+						<option value="OR">Un des mots</option>
+				</select></li>
+				<li><label for="f_ecomextended_sort">Trier par :</label> <select
+					id="f_ecomextended_sort" name="sort">
+						<option selected="selected" value="position_vol_int_asc"></option>
+						<option value="sortable_date_idx_dt">Nouveautés</option>
+						<option value="f_13665_vol_float">Note</option>
+						<option value="f_price_13130_vol_float">+ cher au - cher</option>
+						<option value="f_price_13130_vol_float_asc">- cher au +
+							cher</option>
+				</select></li>
+			</ol>
+			<p class="buttons">
+				<input type="submit" value="Rechercher" class="button"> <input
+					type="hidden" value="ecomextended_BlockProductList" name="key">
+			</p>
+		</fieldset>
+	</form>
+</div>

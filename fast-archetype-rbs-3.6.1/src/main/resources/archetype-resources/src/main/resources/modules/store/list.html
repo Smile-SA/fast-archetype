@@ -1,0 +1,64 @@
+<div class="cLayout">
+	<div style="width: 100%" class="cColumn">
+		<div class="cRow">
+			<div style="width: 100%;" class="cCell">
+				<div id="b_10" class="cblock modules-store-StoreList modules-store">
+					<h1 class="heading-one">Nos magasins</h1>
+					<form class="normal cmxform distance-filter change-form"
+						enctype="multipart/form-data" id="store_storeListb_10" action="#"
+						method="post">
+						<fieldset>
+							<legend class="h-2">Trouver un magasin</legend>
+							<ol>
+								<li><label class="textfield"
+									for="store_storeListb_10_location">Localisation :</label> <input
+									type="text" value="" id="store_storeListb_10_location"
+									class="textfield" name="storeParam[location]"
+									title="Afin de garantir une bonne localisation, saisissez l'adresse en respectant au maximum l'exemple">
+									<input type="button" value="Géolocalisez-moi"
+									class="button locate-me"> <img alt=""
+									src="http://demo.rbschange.fr/media/frontoffice/solrsearch/indicator.gif?cv=32"
+									class="locate-me-indicator" style="visibility: hidden">
+									<p class="help-text">Ex : 11 rue icare, 67960 Entzheim,
+										France</p></li>
+								<li><label
+									for="store_storeListb_10_distance-filter_distance"
+									class="textfield">Distance maximale <span
+										class="number">(km)</span> :
+								</label> <input type="range" value="50"
+									onchange="store_RefreshSlideValue(this)" step="5" max="2000"
+									min="0" name="storeParam[distance]"
+									id="store_storeListb_10_distance-filter_distance"
+									class="textfield"></li>
+								<li><label class="textfield"
+									for="store_storeListb_10_zipCode">Code postal :</label> <input
+									type="text" value="" id="store_storeListb_10_zipCode"
+									class="textfield" name="storeParam[zipCode]"></li>
+								<li><label for="store_storeListb_10_city">Ville :</label> <select
+									id="store_storeListb_10_city" name="storeParam[city]"
+									labeli18n="m.store.fo.city"><option value=""
+											selected="selected">selectionnez un élément</option>
+										<option value="ENTZHEIM">ENTZHEIM</option>
+										<option value="Paris">Paris</option>
+										<option value="SELESTAT">SELESTAT</option></select></li>
+								<li><input type="hidden" value="" id=""
+									name="storeParam[service]"><label
+									for="store_storeListb_10_service">Services proposés :</label> <select
+									id="store_storeListb_10_service" multiple="1"
+									name="storeParam[service][]" labeli18n="m.store.fo.services"><option
+											value="13715">S.A.V</option>
+										<option value="13717">Ouverture 24h/24h &amp; 7j/7j</option></select></li>
+							</ol>
+							<p class="buttons">
+								<button class="button" type="submit">Filtrer</button>
+							</p>
+						</fieldset>
+					</form>
+					<ul class="document-list">
+						<!--$includetemplate$modules$content/storeList.html$--><!--$endincludetemplate$-->
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,58 @@
+table.rating-distribution{border: 1px #999 solid;padding: 8px;}
+table.rating-distribution td,
+table.rating-distribution th,
+table.rating-distribution caption{text-align: center;}
+table.rating-distribution td,
+table.rating-distribution th{padding: 0 10px 0 10px;}
+table.rating-distribution caption{background-color: #999;color: white;padding: 2px;}
+table.rating-distribution td.left-col{padding: 0 10px 0 10px;margin-right: 5px;border-right: 1px #CCC solid;}
+ol.star-rating-accessible,
+ol.star-rating-accessible li{display: inline;}
+.star-rating,
+.star-rating a:hover,
+.star-rating a:active,
+.star-rating a:focus,
+.star-rating a.clicked,
+.star-rating .current-rating{background: url(../../img/rbs-base/star.gif) left -1000px repeat-x;margin: 0;padding: 0;}
+.star-rating{position: relative;width: 125px;height: 25px;overflow: hidden;list-style: none;margin: 0;padding: 0;background-position: left top;}
+ul.star-rating li.star{display: inline;margin: 0;padding: 0;}
+.star-rating a,
+.star-rating .current-rating{position: absolute;top: 0;left: 0;text-indent: -1000em;height: 25px;line-height: 25px;outline: none;overflow: hidden;border: none;}
+.star-rating a:hover,
+.star-rating a:active,
+.star-rating a:focus,
+.star-rating a.clicked{background-position: left bottom;}
+.star-rating a.one-star{width: 20%;z-index: 6;}
+.star-rating a.two-stars{width: 40%;z-index: 5;}
+.star-rating a.three-stars{width: 60%;z-index: 4;}
+.star-rating a.four-stars{width: 80%;z-index: 3;}
+.star-rating a.five-stars{width: 100%;z-index: 2;}
+.star-rating .current-rating{z-index: 1;background-position: left center;}
+.inline-rating{display: inline-block;vertical-align: middle;}
+ul.current-rating.rating-0{width: 0%;}
+li.current-rating.rating-10{width: 10%;}
+li.current-rating.rating-20{width: 20%;}
+li.current-rating.rating-30{width: 30%;}
+li.current-rating.rating-40{width: 40%;}
+li.current-rating.rating-50{width: 50%;}
+li.current-rating.rating-60{width: 60%;}
+li.current-rating.rating-70{width: 70%;}
+li.current-rating.rating-80{width: 80%;}
+li.current-rating.rating-90{width: 90%;}
+li.current-rating.rating-100{width: 100%;}
+.small-star{width: 50px;height: 10px;}
+.small-star,
+.small-star a:hover,
+.small-star a:active,
+.small-star a:focus,
+.small-star .current-rating{background-image: url(../../img/rbs-base/star_small.gif);line-height: 10px;height: 10px;}
+ul.accessible-hidden{display: none;}
+.BBCodeEditor{padding: 0;}
+.BBCodeEditor-toolBar{font-family: inherit;font-size: 10px;font-style: inherit;font-weight: inherit;}
+.BBCodeEditor-toolBar li.button{display: inline;display: inline-block;list-style: none;border: 1px solid #ccc;padding: 2px;margin: 0 1px 1px 0;}
+.BBCodeEditor-toolBar li.button:hover{background-color: #ddd;}
+.BBCodeEditor-toolBar a,
+.BBCodeEditor-toolBar img{display: inline-block;vertical-align: middle;}
+.BBCodeEditor-toolBar a{text-decoration: none;color: #3366CC;}
+.BBCodeEditor-editor{padding: 5px;width: 65%;}
+.BBCodeEditor-resizeHandle{height: 3px;background-color: none;cursor: n-resize;position: relative;}

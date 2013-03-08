@@ -22,6 +22,7 @@
 		<module>fast-archetype-liferay-6.1.0-ce</module>
 		<module>fast-archetype-sass</module>
 		<module>fast-archetype-twitterbootstrap</module>
+		<module>fast-archetype-rbs-3.6.1</module>
 	</modules>
 	<developers>
 		<developer>
