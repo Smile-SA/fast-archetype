@@ -28,9 +28,23 @@
 				<groupId>org.jasig.maven</groupId>
 				<artifactId>sass-maven-plugin</artifactId>
 				<configuration>
-					<sassSourceDirectory>\${project.basedir}/src/main/resources/pages/v1</sassSourceDirectory>
-					<outputDirectory>\${project.build.directory}/generated-html/v1/css-generated</outputDirectory>
-					<baseOutputDirectory>\${project.build.directory}/generated-html/v1/css-generated</baseOutputDirectory>
+					<resources>
+						<resource>
+							<source>
+								<directory>\${project.basedir}/src/main/resources/pages/v1/scss</directory>
+								<includes>
+									<include>**</include>
+								</includes>
+								<excludes>
+									<exclude>**/watch-settings</exclude>
+								</excludes>
+							</source>
+							<destination>\${project.build.directory}/generated-html/v1/css-generated</destination>
+						</resource>
+					</resources>
+					<sassOptions>
+						<always_update>false</always_update>
+					</sassOptions>
 				</configuration>
 			</plugin>
 		</plugins>
