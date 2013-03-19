@@ -205,7 +205,10 @@
 										</goals>
 									</pluginExecutionFilter>
 									<action>
-										<execute />
+										<execute>
+											<runOnIncremental>true</runOnIncremental>
+											<runOnConfiguration>true</runOnConfiguration>
+										</execute>
 									</action>
 								</pluginExecution>
 								<pluginExecution>
@@ -218,7 +221,10 @@
 										</goals>
 									</pluginExecutionFilter>
 									<action>
-										<execute />
+										<execute>
+											<runOnIncremental>true</runOnIncremental>
+											<runOnConfiguration>true</runOnConfiguration>
+										</execute>
 									</action>
 								</pluginExecution>
 								<pluginExecution>
@@ -231,7 +237,10 @@
 										</goals>
 									</pluginExecutionFilter>
 									<action>
-										<execute />
+										<execute>
+											<runOnIncremental>true</runOnIncremental>
+											<runOnConfiguration>true</runOnConfiguration>
+										</execute>
 									</action>
 								</pluginExecution>
 								<pluginExecution>
@@ -244,7 +253,10 @@
 										</goals>
 									</pluginExecutionFilter>
 									<action>
-										<execute />
+										<execute>
+											<runOnIncremental>true</runOnIncremental>
+											<runOnConfiguration>true</runOnConfiguration>
+										</execute>
 									</action>
 								</pluginExecution>
 								<pluginExecution>
@@ -257,7 +269,10 @@
 										</goals>
 									</pluginExecutionFilter>
 									<action>
-										<execute />
+										<execute>
+											<runOnIncremental>true</runOnIncremental>
+											<runOnConfiguration>true</runOnConfiguration>
+										</execute>
 									</action>
 								</pluginExecution>
 							</pluginExecutions>
