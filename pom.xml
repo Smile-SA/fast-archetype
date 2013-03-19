@@ -134,7 +134,7 @@
 			<distributionManagement>
 				<site>
 					<id>maven-repository-doc</id>
-					<url>org.fast.maven.plugin.fast-maven-plugin</url>
+					<url>org.fast.archetype.fast-archetype</url>
 				</site>
 			</distributionManagement>
 		</profile>
