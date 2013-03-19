@@ -12,7 +12,7 @@
 	</prerequisites>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<fast-archetype-parent.version>2.9-SNAPSHOT</fast-archetype-parent.version>
+		<fast-archetype-parent.version>2.10</fast-archetype-parent.version>
 	</properties>
 	<modules>
 		<module>fast-archetype-parent</module>
