@@ -7,4 +7,5 @@
 	</parent>
 	<artifactId>fast-archetype-sass</artifactId>
 	<packaging>maven-archetype</packaging>
+	<name>SASS example</name>
 </project>

@@ -7,4 +7,5 @@
 	</parent>
 	<artifactId>fast-archetype-simple</artifactId>
 	<packaging>maven-archetype</packaging>
+	<name>Basics example</name>
 </project>

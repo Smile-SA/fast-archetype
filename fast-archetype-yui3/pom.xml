@@ -7,4 +7,5 @@
 	</parent>
 	<artifactId>fast-archetype-yui3</artifactId>
 	<packaging>maven-archetype</packaging>
+	<name>Yahoo UI example</name>
 </project>

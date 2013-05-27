@@ -7,4 +7,5 @@
 	</parent>
 	<artifactId>fast-archetype-960gs</artifactId>
 	<packaging>maven-archetype</packaging>
+	<name>960gs</name>
 </project>

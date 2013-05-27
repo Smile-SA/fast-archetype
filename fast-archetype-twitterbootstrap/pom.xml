@@ -7,4 +7,5 @@
 	</parent>
 	<artifactId>fast-archetype-twitterbootstrap</artifactId>
 	<packaging>maven-archetype</packaging>
+	<name>Twitter bootstrap</name>
 </project>
