@@ -9,4 +9,19 @@
 	<packaging>maven-archetype</packaging>
 	<name>SASS example</name>
 	<description>Example of how to use the SASS plugin</description>
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>com.github.github</groupId>
+				<artifactId>site-maven-plugin</artifactId>
+				<executions>
+					<execution>
+						<configuration>
+							<path>${project.version}/${project.artifactId}</path>
+						</configuration>
+					</execution>
+				</executions>
+			</plugin>
+		</plugins>
+	</build>
 </project>
