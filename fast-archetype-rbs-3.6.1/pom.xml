@@ -8,4 +8,5 @@
 	<artifactId>fast-archetype-rbs-3.6.1</artifactId>
 	<packaging>maven-archetype</packaging>
 	<name>RBS Change 3.6.1</name>
+	<description>For project based on RBS Change 3.6.1</description>
 </project>

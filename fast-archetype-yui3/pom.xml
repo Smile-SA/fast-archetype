@@ -8,4 +8,5 @@
 	<artifactId>fast-archetype-yui3</artifactId>
 	<packaging>maven-archetype</packaging>
 	<name>Yahoo UI example</name>
+	<description>Bootstrap for a simple pure YUI3 CSS project</description>
 </project>

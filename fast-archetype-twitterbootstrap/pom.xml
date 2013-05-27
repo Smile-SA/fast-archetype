@@ -8,4 +8,5 @@
 	<artifactId>fast-archetype-twitterbootstrap</artifactId>
 	<packaging>maven-archetype</packaging>
 	<name>Twitter bootstrap</name>
+	<description>Example of how to use the LESS plugin, also a good way to start a pure Twitter Bootstrap project</description>
 </project>

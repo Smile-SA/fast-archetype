@@ -8,4 +8,5 @@
 	<artifactId>fast-archetype-liferay-6.1.0-ce</artifactId>
 	<packaging>maven-archetype</packaging>
 	<name>Liferay 6.1.0-CE</name>
+	<description>For project based on Liferay 6.1.0-CE</description>
 </project>

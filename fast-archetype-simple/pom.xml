@@ -8,4 +8,5 @@
 	<artifactId>fast-archetype-simple</artifactId>
 	<packaging>maven-archetype</packaging>
 	<name>Basics example</name>
+	<description>Very simple example that does not do much but shows you how FAST works</description>
 </project>
