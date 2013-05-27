@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.fast.archetype</groupId>
 	<artifactId>fast-archetype</artifactId>
-	<version>2.12-SNAPSHOT</version>
+	<version>2.12.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
 	<name>fast-archetype</name>
 	<url>http://smile-sa.github.io/fast-archetype</url>
@@ -18,7 +18,7 @@
 	</prerequisites>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<fast-archetype-parent.version>2.12</fast-archetype-parent.version>
+		<fast-archetype-parent.version>2.12.1</fast-archetype-parent.version>
 		<dependency.details.enabled>false</dependency.details.enabled>
 		<dependency.locations.enabled>false</dependency.locations.enabled>
 		<github.global.server>github</github.global.server>
