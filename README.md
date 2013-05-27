@@ -3,7 +3,8 @@
 [Fast ApplicationS Templating archetypes](http://smile-sa.github.io/fast-archetype) that generate a FAST templating project.
 
 FAST is a Maven plugin to build our static HTML file from module.
-You'll find more info on its own page : [fast-maven-plugin](http://smile-sa.github.io/fast-maven-plugin)
+You'll find more info on its own page : [fast-maven-plugin](http://smile-sa.github.io/fast-maven-plugin).
+Also, you'll find information about additional maven plugin use.
 
 Splitting HTML into modules is something we're used to.
 Every server side developement has a way to do it (include with PHP or Java JSP for example).
