@@ -13,7 +13,7 @@ FAST is a light system to combine HTML module into a single readable HTML file, 
 The good thing being a Maven plugin is the Maven ecosystem : there are a lot of available plugins out there : minification, less, sass, lint, embedded server, ...
 The best thing is that dependencies are fetched on-the-fly, it will get all the needed tools without any action from developer.
 
-The last, but not least, good thing is archetype.
+One more good thing is archetype.
 An archetype is like a sample project with predefined files.
 The idea is to speed up starting on new project.
 This is why this project has been created : to gather FAST archetypes.
@@ -34,6 +34,8 @@ You'll find here those archetypes :
 	Liferay bootstrap, very useful to start a static work on a Lifery project
 - [fast-archetype-rbs-3.6.1](http://smile-sa.github.io/fast-archetype/fast-archetype-rbs-3.6.1)
 	RBS Change bootstrap, very useful to start a static work on a RBS Change project
+
+All those archetypes use a parent module containing lots of default configuration that will do some configuration for you : [fast-archetype-parent](http://smile-sa.github.io/fast-archetype-parent/).
 
 If you want to contribute, please, do so =)
 We'd like to hear from people working on Magento, Drupal, Wordpress, ...
