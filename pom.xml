@@ -29,7 +29,7 @@
 		<url>https://github.com/Smile-SA/fast-archetype/issues</url>
 	</issueManagement>
 	<modules>
-		<module>fast-archetype-parent</module>
+		<!-- <module>fast-archetype-parent</module> -->
 		<module>fast-archetype-simple</module>
 		<module>fast-archetype-yui3</module>
 		<module>fast-archetype-960gs</module>
