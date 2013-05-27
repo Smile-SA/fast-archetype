@@ -1,27 +1,41 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.fast.archetype</groupId>
 	<artifactId>fast-archetype</artifactId>
 	<version>2.12-SNAPSHOT</version>
 	<packaging>pom</packaging>
 	<name>fast-archetype</name>
-	<description>Fast ApplicationS Templating archetype that generate a fast templating project</description>
+	<url>http://smile-sa.github.io/fast-archetype</url>
+	<description>Fast ApplicationS Templating archetypes that generate a fast templating project</description>
 	<inceptionYear>2011</inceptionYear>
+	<scm>
+		<connection>scm:git:git@github.com:Smile-SA/fast-archetype.git</connection>
+		<url>https://github.com/Smile-SA/fast-archetype</url>
+		<developerConnection>scm:git:git@github.com:Smile-SA/fast-archetype.git</developerConnection>
+	</scm>
 	<prerequisites>
 		<maven>3.0</maven>
 	</prerequisites>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<fast-archetype-parent.version>2.12-SNAPSHOT</fast-archetype-parent.version>
+		<dependency.details.enabled>false</dependency.details.enabled>
+		<dependency.locations.enabled>false</dependency.locations.enabled>
+		<github.global.server>github</github.global.server>
 	</properties>
+	<issueManagement>
+		<system>GitHub</system>
+		<url>https://github.com/Smile-SA/fast-archetype/issues</url>
+	</issueManagement>
 	<modules>
 		<module>fast-archetype-parent</module>
 		<module>fast-archetype-simple</module>
 		<module>fast-archetype-yui3</module>
 		<module>fast-archetype-960gs</module>
-		<module>fast-archetype-liferay-6.1.0-ce</module>
 		<module>fast-archetype-sass</module>
 		<module>fast-archetype-twitterbootstrap</module>
+		<module>fast-archetype-liferay-6.1.0-ce</module>
 		<module>fast-archetype-rbs-3.6.1</module>
 	</modules>
 	<developers>
@@ -36,12 +50,6 @@
 			<email>romain.gonord.opensource@neteyes.org</email>
 		</developer>
 	</developers>
-	<scm>
-		<connection>scm:git:git@github.com:Smile-SA/fast-archetype.git</connection>
-		<url>scm:git:git@github.com:Smile-SA/fast-archetype.git</url>
-		<developerConnection>scm:git:git@github.com:Smile-SA/fast-archetype.git</developerConnection>
-	  <tag>HEAD</tag>
-  </scm>
 	<build>
 		<resources>
 			<resource>
@@ -85,7 +93,7 @@
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-release-plugin</artifactId>
-					<version>2.4</version>
+					<version>2.4.1</version>
 					<configuration>
 						<arguments>-DaltDeploymentRepository=/${altDeploymentRepository}</arguments>
 					</configuration>
@@ -93,12 +101,39 @@
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-site-plugin</artifactId>
-					<version>3.2</version>
+					<version>3.3</version>
+					<executions>
+						<execution>
+							<id>attach-descriptor</id>
+							<goals>
+								<goal>attach-descriptor</goal>
+							</goals>
+						</execution>
+					</executions>
+					<configuration>
+						<skipDeploy>true</skipDeploy>
+						<inputEncoding>UTF-8</inputEncoding>
+						<outputEncoding>UTF-8</outputEncoding>
+						<reportPlugins>
+							<plugin>
+								<groupId>org.apache.maven.plugins</groupId>
+								<artifactId>maven-project-info-reports-plugin</artifactId>
+								<version>2.7</version>
+							</plugin>
+						</reportPlugins>
+					</configuration>
+					<dependencies>
+						<dependency>
+							<groupId>org.apache.maven.doxia</groupId>
+							<artifactId>doxia-module-markdown</artifactId>
+							<version>1.4</version>
+						</dependency>
+					</dependencies>
 				</plugin>
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-compiler-plugin</artifactId>
-					<version>3.0</version>
+					<version>3.1</version>
 				</plugin>
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
@@ -115,6 +150,11 @@
 					<artifactId>maven-install-plugin</artifactId>
 					<version>2.4</version>
 				</plugin>
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-jar-plugin</artifactId>
+					<version>2.4</version>
+				</plugin>
 			</plugins>
 		</pluginManagement>
 	</build>
@@ -128,15 +168,4 @@
 			<url>http://smile-sa.github.com/maven-repository/snapshots</url>
 		</snapshotRepository>
 	</distributionManagement>
-	<profiles>
-		<profile>
-			<id>doc</id>
-			<distributionManagement>
-				<site>
-					<id>maven-repository-doc</id>
-					<url>org.fast.archetype.fast-archetype</url>
-				</site>
-			</distributionManagement>
-		</profile>
-	</profiles>
 </project>
