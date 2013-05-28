@@ -1,4 +1,4 @@
-# FAST archetype : simple
+# FAST archetype : simple example
 
 This is a very simple project.
 
@@ -16,7 +16,7 @@ mvn archetype:generate \
 	-DarchetypeVersion=RELEASE
 ```
 
-You'll have to answer the questions :
+You'll have to set the following properties :
 
 - groupId and artifactId : this is the Maven way to identify your project. *org.acme* for the groupId and *foobar* for the artifactId for example.
 - version (you can leave the default setting)
