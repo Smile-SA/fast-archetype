@@ -2,6 +2,8 @@
 
 This is a project to start working with [Twitter bootstrap](http://twitter.github.io/bootstrap/).
 
+It also demonstrate how to use the [Maven LESS plugin](http://smile-sa.github.io/fast-maven-plugin/2.3/extra-less.html).
+
 ## Prerequisite
 
 We'll assume that you're familiar with [fast-maven-plugin](http://smile-sa.github.io/fast-maven-plugin).
