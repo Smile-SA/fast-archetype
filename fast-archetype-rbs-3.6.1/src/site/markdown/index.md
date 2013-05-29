@@ -58,7 +58,7 @@ You'll find some example page :
 - storeList.html
 - storeLocator.html
 
-These pages are should be the same as the default template in RBS Change.
+These pages should be similar to the default template in RBS Change.
 
 [<img src="content/ContentPage.jpg" width="200" />](content/ContentPage.jpg)
 [<img src="content/Home.jpg" width="200" />](content/Home.jpg)
