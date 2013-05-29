@@ -173,7 +173,7 @@
 						</goals>
 						<phase>site</phase>
 						<configuration>
-							<message>Creating site for ${project.version}</message>
+							<message>Creating site for ${project.artifactId} ${project.version}</message>
 							<path>${project.version}</path>
 							<merge>true</merge>
 						</configuration>
