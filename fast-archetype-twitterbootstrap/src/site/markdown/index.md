@@ -8,7 +8,7 @@ It also demonstrate how to use the [Maven LESS plugin](http://smile-sa.github.io
 
 We'll assume that you're familiar with [fast-maven-plugin](http://smile-sa.github.io/fast-maven-plugin).
 
-If you don't, check the [fast-archetype-simple](http://smile-sa.github.io/fast-archetype/fast-archetype-simple) at first, it is a very simple eexample, perfect to start.
+If you don't, check the [fast-archetype-simple](http://smile-sa.github.io/fast-archetype/2.12.1/fast-archetype-simple) at first, it is a very simple eexample, perfect to start.
 
 ## Create a new project
 

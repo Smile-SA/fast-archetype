@@ -6,7 +6,7 @@ This is an example project to demonstratehow to use the [Maven SASS plugin](http
 
 We'll assume that you're familiar with [fast-maven-plugin](http://smile-sa.github.io/fast-maven-plugin).
 
-If you don't, check the [fast-archetype-simple](http://smile-sa.github.io/fast-archetype/fast-archetype-simple) at first, it is a very simple eexample, perfect to start.
+If you don't, check the [fast-archetype-simple](http://smile-sa.github.io/fast-archetype/2.12.1/fast-archetype-simple) at first, it is a very simple eexample, perfect to start.
 
 ## Create a new project
 
@@ -46,7 +46,7 @@ The folder hierarchy is the same as the simple example :
 - src/main/assembly and src/main/filters
 - src/main/resources/modules and src/main/resources/pages
 
-This example project has [fast-archetype-yui3](http://smile-sa.github.io/fast-archetype/fast-archetype-yui3) as base.
+This example project has [fast-archetype-yui3](http://smile-sa.github.io/fast-archetype/2.12.1/fast-archetype-yui3) as base.
 The HTML file content and structure are the same.
 
 The difference comes from the CSS management.

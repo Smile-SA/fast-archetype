@@ -2,13 +2,13 @@
 
 This is a simple project to show how use the CSS framework from Yahoo : [YUI3 reset](http://yuilibrary.com/yui/docs/cssreset), [YUI3 base](http://yuilibrary.com/yui/docs/cssbase), [YUI3 font](http://yuilibrary.com/yui/docs/cssfonts), [YUI3 grids](http://yuilibrary.com/yui/docs/cssgrids).
 
-This is a similar archetype to [fast-archetype-960gs](http://smile-sa.github.io/fast-archetype/fast-archetype-960gs) which is based on 960gs instead of YUI3.
+This is a similar archetype to [fast-archetype-960gs](http://smile-sa.github.io/fast-archetype/2.12.1/fast-archetype-960gs) which is based on 960gs instead of YUI3.
 
 ## Prerequisite
 
 We'll assume that you're familiar with [fast-maven-plugin](http://smile-sa.github.io/fast-maven-plugin).
 
-If you don't, check the [fast-archetype-simple](http://smile-sa.github.io/fast-archetype/fast-archetype-simple) at first, it is a very simple eexample, perfect to start.
+If you don't, check the [fast-archetype-simple](http://smile-sa.github.io/fast-archetype/2.12.1/fast-archetype-simple) at first, it is a very simple eexample, perfect to start.
 
 ## Create a new project
 
@@ -49,7 +49,7 @@ The folder hierarchy is the same as the simple example :
 - src/main/resources/modules and src/main/resources/pages
 
 The HTML fragmentation into src/main/resources/modules is an example.
-The good thing to look at, compared to [fast-archetype-simple](http://smile-sa.github.io/fast-archetype/fast-archetype-simple) is the src/main/resources/modules/layout folder.
+The good thing to look at, compared to [fast-archetype-simple](http://smile-sa.github.io/fast-archetype/2.12.1/fast-archetype-simple) is the src/main/resources/modules/layout folder.
 We set in this folder some different layout which will be used as nested template to create our page ark and columns.
 
 This good practice helps us to separate the content from the layout, easing module reuse.
