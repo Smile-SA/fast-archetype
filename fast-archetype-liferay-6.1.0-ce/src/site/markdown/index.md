@@ -64,12 +64,12 @@ It is a good thing to do quickly and early test of content combination.
 
 These pages should be similar to the default template in Liferay.
 
-[<img src="content/layout__1_2_1_columns.jpeg" width="200" />](layout__1_2_1_columns.jpeg)
-[<img src="content/layout__2_columns_iii.jpeg" width="200" />](layout__2_columns_iii.jpeg)
-[<img src="content/layout__3_columns.jpeg" width="200" />](layout__3_columns.jpeg)
-[<img src="content/maximized_portlet.jpeg" width="200" />](maximized_portlet.jpeg)
-[<img src="content/portlet__assetpublisher.jpeg" width="200" />](portlet__assetpublisher.jpeg)
-[<img src="content/portlet__bookmarks.jpeg" width="200" />](portlet__bookmarks.jpeg)
-[<img src="content/portlet__calendar.jpeg" width="200" />](portlet__calendar.jpeg)
-[<img src="content/portlet__documentandmediadisplay.jpeg" width="200" />](portlet__documentandmediadisplay.jpeg)
-[<img src="content/portlet__webcontentdisplay.jpeg" width="200" />](portlet__webcontentdisplay.jpeg)
+[<img src="content/layout__1_2_1_columns.jpeg" width="200" />](content/layout__1_2_1_columns.jpeg)
+[<img src="content/layout__2_columns_iii.jpeg" width="200" />](content/layout__2_columns_iii.jpeg)
+[<img src="content/layout__3_columns.jpeg" width="200" />](content/layout__3_columns.jpeg)
+[<img src="content/maximized_portlet.jpeg" width="200" />](content/maximized_portlet.jpeg)
+[<img src="content/portlet__assetpublisher.jpeg" width="200" />](content/portlet__assetpublisher.jpeg)
+[<img src="content/portlet__bookmarks.jpeg" width="200" />](content/portlet__bookmarks.jpeg)
+[<img src="content/portlet__calendar.jpeg" width="200" />](content/portlet__calendar.jpeg)
+[<img src="content/portlet__documentandmediadisplay.jpeg" width="200" />](content/portlet__documentandmediadisplay.jpeg)
+[<img src="content/portlet__webcontentdisplay.jpeg" width="200" />](content/portlet__webcontentdisplay.jpeg)
