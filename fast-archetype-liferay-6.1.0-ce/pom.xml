@@ -3,7 +3,7 @@
 	<parent>
 		<groupId>org.fast.archetype</groupId>
 		<artifactId>fast-archetype</artifactId>
-		<version>2.12.1</version>
+		<version>2.12.2-SNAPSHOT</version>
 	</parent>
 	<artifactId>fast-archetype-liferay-6.1.0-ce</artifactId>
 	<packaging>maven-archetype</packaging>

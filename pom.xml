@@ -2,7 +2,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.fast.archetype</groupId>
 	<artifactId>fast-archetype</artifactId>
-	<version>2.12.1</version>
+	<version>2.12.2-SNAPSHOT</version>
 	<packaging>pom</packaging>
 	<name>fast-archetype</name>
 	<url>http://smile-sa.github.io/fast-archetype</url>
@@ -11,7 +11,7 @@
 		<connection>scm:git:git@github.com:Smile-SA/fast-archetype.git</connection>
 		<url>https://github.com/Smile-SA/fast-archetype</url>
 		<developerConnection>scm:git:git@github.com:Smile-SA/fast-archetype.git</developerConnection>
-	  <tag>fast-archetype-2.12.1</tag>
+	  <tag>HEAD</tag>
   </scm>
 	<prerequisites>
 		<maven>3.0</maven>
