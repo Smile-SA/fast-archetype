@@ -1,6 +1,6 @@
-# FAST archetype : Twitter bootstrap
+# FAST archetype : Twitter Bootstrap
 
-This is a project to start working with [Twitter bootstrap](http://twitter.github.io/bootstrap/).
+This is a project to start working with [Twitter Bootstrap](http://twitter.github.io/bootstrap/).
 
 It also demonstrate how to use the [Maven LESS plugin](http://smile-sa.github.io/fast-maven-plugin/2.3/extra-less.html).
 
@@ -8,7 +8,7 @@ It also demonstrate how to use the [Maven LESS plugin](http://smile-sa.github.io
 
 We'll assume that you're familiar with [fast-maven-plugin](http://smile-sa.github.io/fast-maven-plugin).
 
-If you don't, check the [fast-archetype-simple](http://smile-sa.github.io/fast-archetype/2.12.1/fast-archetype-simple) at first, it is a very simple eexample, perfect to start.
+If you don't, check the [fast-archetype-simple](http://smile-sa.github.io/fast-archetype/2.12.1/fast-archetype-simple) at first, it is a very simple example, perfect to start.
 
 ## Create a new project
 
@@ -57,12 +57,12 @@ The src/main/resources/pages contains 2 new folders :
 - *lesscss* contains less.js which allow you to work with [LESS](http://lesscss.org) without the compilation (it is done into the browser through javascript ; don't use in for your live website).
 - *twitter-bootstrap* contains the official distribution (in [LESS](http://lesscss.org) format to allow you modifying theme)
 
-The idea is to have an official separate [Twitter bootstrap](http://twitter.github.io/bootstrap/) folder to ease upgrade. If you don't change anything into this folder, upgrade should be a piece of cake.
+The idea is to have an official separate [Twitter Bootstrap](http://twitter.github.io/bootstrap/) folder to ease upgrade. If you don't change anything into this folder, upgrade should be a piece of cake.
 
 Into src/main/resources/pages/v1/less, you'll find the [LESS](http://lesscss.org) files used for our project :
 
-- bootstrap.less and responsive.less comes from the Twitter Bootstrap distribution (if you upgrade [Twitter bootstrap](http://twitter.github.io/bootstrap/), you may have to upgrade those files too) ; they are the master files that will aggregate TB CSS files.
-- variables.less contains all the variables for customizing [Twitter bootstrap](http://twitter.github.io/bootstrap/)
+- bootstrap.less and responsive.less comes from the Twitter Bootstrap distribution (if you upgrade [Twitter Bootstrap](http://twitter.github.io/bootstrap/), you may have to upgrade those files too) ; they are the master files that will aggregate TB CSS files.
+- variables.less contains all the variables for customizing [Twitter Bootstrap](http://twitter.github.io/bootstrap/)
 - screen.less contains your own CSS
 
 You'll find lots of HTLM page descriptor.
