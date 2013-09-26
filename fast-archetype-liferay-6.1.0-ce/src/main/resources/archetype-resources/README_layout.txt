@@ -1,6 +1,3 @@
-#set( $symbol_pound = '#' )
-#set( $symbol_dollar = '$' )
-#set( $symbol_escape = '\' )
 Layout use the CSS property display with value table, table, cell, ...
 
 As IE6 and 7 don't support it, there is a conditionnal treatment to separate those 2 from other browsers :

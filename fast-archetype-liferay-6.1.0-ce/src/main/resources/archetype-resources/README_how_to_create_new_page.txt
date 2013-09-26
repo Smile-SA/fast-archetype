@@ -1,6 +1,3 @@
-#set( $symbol_pound = '#' )
-#set( $symbol_dollar = '$' )
-#set( $symbol_escape = '\' )
 How to create a new page (example from src/main/resources/pages/01_web_content_display.html) :
 
 - create a new page descriptor into src/main/resources/pages

@@ -1,6 +1,3 @@
-#set( $symbol_pound = '#' )
-#set( $symbol_dollar = '$' )
-#set( $symbol_escape = '\' )
 Here some useful informations :
 - README_file_and_folder_structure.txt
 	It explains how the folder tree have been done
