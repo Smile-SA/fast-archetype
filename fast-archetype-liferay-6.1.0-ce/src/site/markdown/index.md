@@ -1,4 +1,4 @@
-# FAST archetype : RBS Change
+# FAST archetype : Liferay
 
 This is a project to start working with [Liferay Portal](http://www.liferay.org).
 
